@@ -24,7 +24,7 @@ def get_flask_path():
         return f"""public bits: [<br><br>
                 Name: see /etc/passwd/, and copy name // username {{username}}:x:1000:1000:{{username}},,,:/home/{{username}}:/usr/bin/sh <br><br>
                 ModName: {app.__module__} // getattr(app, "__module__", t.cast(object, app).__class__.__module__) <br><br>
-                Flask Name: Flask // getattr(app, "__name__", type(app).__name__) <br><br>
+                App Name: Flask // getattr(app, "__name__", type(app).__name__) <br><br>
                 Path to Flask: go to path "/error" and copy path to "app.py" // getattr(mod, "__file__", None) <br><br>]
                 <br><br><br>
                 private_bits: [<br><br>
