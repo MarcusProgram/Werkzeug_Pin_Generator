@@ -4,8 +4,8 @@
 ___
 
 ## Screenshots
-<img src='https://github.com/MarcusProgram/'/>
-<img src='https://github.com/MarcusProgram/' widht="200px" height="300px"/>
+<img src='https://github.com/MarcusProgram/Werkzeug_Pin_Generator/blob/main/Screenshots/swappy-20241010-142003.png?raw=true'/>
+<img src='https://github.com/MarcusProgram/Werkzeug_Pin_Generator/blob/main/Screenshots/swappy-20241010-143009.png?raw=true' widht="200px" height="300px"/>
 
 ## Installation
 
