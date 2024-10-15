@@ -1,6 +1,7 @@
 # Werkzeug_Pin_Generator
 [![Python 3.12](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)](https://www.python.org/)<br>
-Это пример эксплуатации от LFI до RCE, если на сервере стоит Werkzeug c debug=true
+This is an example of operation from LFI to RCE if Werkzeug c debug=true is installed on the server
+
 ___
 
 ## Screenshots
@@ -9,43 +10,43 @@ ___
 
 ## Installation
 
-Клонируем гит с помощью `git clone`:
+Clone the git with `git clone`:
 ```bash
 git clone https://github.com/MarcusProgram/Werkzeug_Pin_Generator.git
 ```
 
-Потом перейдите в папку с файлом с помощью `cd`:
+Then navigate to the file folder using `cd`:
 ```bash
 cd Werkzeug_Pin_Generator/Exploit
 ```
 
-Далее, установите все необходимые Python зависимости из файла `requirements.txt`:
+Next, install all the necessary Python dependencies from the file `requirements.txt`:
 
 ```bash
 sudo pip install -r requirements.txt
 ```
 
-А дальше наслаждаетесь скриптом:
+And then you enjoy the script:
 
 ```bash
 sudo python3 main.py
 ```
 
 ## Up Flask Server
-Это сервер для проверки этого эксплоита
+This is the server to test this exploit
 
-Переходим в папку с файлом с помощью `cd`:
+Navigate to the folder with the file using `cd`:
 ```bash
 cd Werkzeug_Pin_Generator/Flask
 ```
 
-Далее, установите все необходимые Python зависимости из файла `requirements.txt`:
+Next, install all the necessary Python dependencies from the file `requirements.txt`:
 
 ```bash
 sudo pip install -r requirements.txt
 ```
 
-А дальше запускаем Python файл и переходим на сервер который нам любезно выдали:
+And then we run the Python file and go to the server we were kindly given:
 
 ```bash
 sudo python3 main.py
